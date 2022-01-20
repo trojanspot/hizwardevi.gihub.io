@@ -1,5 +1,5 @@
 /**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
+ * @author
  */
 (function ($) {
     "use strict";
@@ -22,11 +22,11 @@
  */
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+    console.log('Audio');
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jan 28, 2022 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -44,12 +44,12 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
+    document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Hari</div>" + "<div class='hours block'>" + hours + "<br>Jam</div>" + "<div class='minutes block'>" + minutes + "<br>Menit</div>" + "<div class='seconds block'>" + seconds + "<br>Detik</div></div>";
     
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+        document.getElementById("time").innerHTML = "Semoga menjadi keluarga yang tenang, tentram, damai, penuh cinta dan kasih sayang";
     }
 }, 1000);
 
@@ -85,9 +85,9 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
+console.log('\n\n%c SAVE THE DATE: 28th Jan, 2022!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: AsahanTECH', styles1, styles2);
 
 console.log(
     `%cShaadi me zaroor aana!\n\n`,
