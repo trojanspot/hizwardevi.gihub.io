@@ -85,11 +85,11 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 28th Jan, 2022!', styles);
+console.log('\n\n%c INGAT TANGGALNYA: 5 Februari 2022!', styles);
 
 console.log('%cYour presence is requested!%c\n\nRegards: AsahanTECH', styles1, styles2);
 
 console.log(
-    `%cShaadi me zaroor aana!\n\n`,
+    `%cPastikan untuk hadir ke pesta pernikahan!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
