@@ -26,7 +26,7 @@ $(document).on('click', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 05, 2022 00:00:00").getTime();
+var countDownDate = new Date("May 16, 2022 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -49,7 +49,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Semoga menjadi keluarga yang tenang, tentram, damai, penuh cinta dan kasih sayang";
+        document.getElementById("time").innerHTML = "<center>Semoga menjadi keluarga yang tenang, tentram, damai, penuh cinta dan kasih sayang</center>";
     }
 }, 1000);
 
@@ -85,7 +85,7 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c INGAT TANGGALNYA: 5 Februari 2022!', styles);
+console.log('\n\n%c INGAT TANGGALNYA: 16 Mei 2022!', styles);
 
 console.log('%cYour presence is requested!%c\n\nRegards: AsahanTECH', styles1, styles2);
 
